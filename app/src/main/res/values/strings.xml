@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="id_name" translatable="false">ID is %s</string>
+
+    <string name="app_name">Emrexample</string>
+    <string name="approaching">Approaching</string>
+    <string name="button_login">Login</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="comment_header">Comments and access conditions</string>
+    <string name="delete">Clear</string>
+    <string name="delivery">Delivery</string>
+    <string name="dialog_start_driving" formatted="false">Are you sure you want to start N° %1$s ?</string>
+    <string name="estimated_time">Travel time estimated to %1$s</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="more_details">More details</string>
+    <string name="no">No</string>
+    <string name="order">Order</string>
+    <string name="order_number">N° order</string>
+    <string name="recipient">Recipient</string>
+    <string name="reserve">Reservation</string>
+    <string name="sender">Sender</string>
+    <string name="yes">Yes</string>
+    <string name="checkbox_login">Remember password</string>
+    <string name="ok">OK</string>
+    <string name="kg">KG</string>
+    <string name="description">Description…</string>
+    <string name="options">Options</string>
+    <string name="time_interval"><![CDATA[<b>Between</b>  %1$s and %2$s]]></string>
+    <string name="date"><![CDATA[<b>On</b>]]> %1$s</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="protocole_de_s_curit">Transportation Documents</string>
+    <string name="estimated_time_calculating">calculating..</string>
+    <string name="cm">cm</string>
+    <string name="empty">empty</string>
+    <string name="incident_delivery">Incident for Delivery</string>
+    <string name="incident_pickup">Incident for Pickup</string>
+    <string name="button_call">CALL US</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="ask_question">ASK QUESTION ?</string>
+    <string name="loads">Load</string>
+    <string name="no_internet">You dont have internet connection on your device</string>
+    <string name="exit_application">Close The Application</string>
+    <string name="welcome">WELCOME ABOARD</string>
+    <string name="welcome_explain">You will be able to directly receive the mission orders on your smartphone and communicate</string>
+    <string name="previous">Previous</string>
+    <string name="permission_needed">We need your permission</string>
+    <string name="permission_describe">We need your authorization to send you your transport orders directly and to communicate each step of your deliveries.</string>
+    <string name="next">Continue</string>
+    <string name="finish">Finish</string>
+    <string name="allow">Allow</string>
+    <string name="shipper_referance">Référence de l\'expéditeur</string>
+    <string name="days">%1$d days</string>
+    <string name="hours">%1$d hours</string>
+    <string name="minutes">%1$d minutes</string>
+    <string name="hours_minutes">%1$d hours %2$d minutes</string>
+
+</resources>
+

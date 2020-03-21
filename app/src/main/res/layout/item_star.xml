@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="fragment"
+            type="com.emrexample.mobile.fragment.SelectionOfStarFragment" />
+        <variable
+            name="star"
+            type="com.emrexample.mobile.model.Star" />
+    </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/star_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="8dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="@{()->fragment.onCliked(star)}"
+            android:focusable="true"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_star_sign">
+
+                <TextView
+                    android:id="@+id/starName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:text="@{star.starName}"
+                    android:textAllCaps="true"
+                    android:layout_margin="16dp"
+                    android:textSize="28dp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

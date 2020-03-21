@@ -1,0 +1,65 @@
+{
+  "result": "ok",
+  "response": [
+    {
+      "star_id": "5919d243e93277125feb75ed",
+      "starName": "Eridanus"
+    },
+    {
+      "star_id": "59a98244d84b4f74d6b5799b",
+      "starName": "Cassiopeia"
+    },
+    {
+      "star_id": "597f2fa0cc3cf120824348d0",
+      "starName": "Scorpius"
+    },
+    {
+      "star_id": "5940e609a4486b6284607808",
+      "starName": "Crux"
+    },
+    {
+      "star_id": "591b0dc866539914c4ae8f7f",
+      "starName": "Cancer"
+    },
+    {
+      "star_id": "5a746618344be15cba8985f3",
+      "starName": "Leo"
+    },
+    {
+      "star_id": "5a74662d344be15cba8985f4",
+      "starName": "Andromeda"
+    },
+    {
+      "star_id": "587de1ea8e50d25bd03395c3",
+      "starName": "Taurus"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Sagittarius"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Lyra"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Sagittarius"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Serpens"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Corvus"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Ursa Major"
+    },
+    {
+      "star_id": "5bced5ae88eafa5d64cc9517",
+      "starName": "Gemini"
+    }
+  ]
+}
